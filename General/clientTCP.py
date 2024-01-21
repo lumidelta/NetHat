@@ -11,7 +11,7 @@ client.connect((target_host, target_port))
 
 # send data
 client.send(b"something")
-client.send(b"something")
+
 
 # get responce
 response = client.recv(4096)
