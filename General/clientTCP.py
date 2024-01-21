@@ -10,8 +10,8 @@ client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((target_host, target_port))
 
 # send data
-client.send(b"something")
-client.send(b"something")
+client.send(b"AABBCC")
+
 
 # get responce
 response = client.recv(4096)
